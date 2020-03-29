@@ -45,11 +45,10 @@ form input{
     font-size: 18px;
     line-height: 60px;
     transition: filter 0.2s;
+    &:hover{
+        filter: brightness(90%);
+    }
 }
-.button:hover{
-    filter: brightness(90%);
-}
-
 
 .back-link{
     display: flex;
@@ -60,10 +59,11 @@ form input{
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.2s;
-}
-.back-link svg{
-    margin-right: 8px;
-}
-.back-link:hover{
-    opacity: 0.8;
+    svg{
+        margin-right: 8px;
+    }
+    &:hover{
+        opacity: 0.8;
+    }
+    
 }
